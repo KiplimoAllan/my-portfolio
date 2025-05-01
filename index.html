@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allan kiplimo Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://kit.fontawesome.com/c1e1710ce4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!----------Header------------>
+
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p id="job-title"><u>Software Developer</u></p>
+                <h1 id="typewriter-target"></h1>
+              </div>
+        </div>
+
+    </div>
+
+    <!---------About----------->
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>With hands-on experience in languages and frameworks like JavaScript (React, Node.js), Python, 
+                        and ASP.NET, I’m capable in providing technical solutions. This solution spans from 
+                        creating responsive websites, developing secure backend system, or managing
+                         databases, as well as developing predictive models using machine learning. 
+                         I always adhere in creating efficient, scalable, and user-friendly 
+                         solutions.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/ UX design</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>Modeling & Data Analysis </span><br>Building predictive model & Forecasting</li>                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2024 - current</span><br> SOFTACTIVIST COMPUTING-Eldoret</li>
+                                <li><span>May 2023 - 2024</span><br>ICT Attachee at County Government of Nandi</li>                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2019 - 2023 </span><br>Maasai Mara University (BSc Computer Science)</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------Services----->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I create visually stunning, user-friendly, and responsive websites that reflect your
+                         brand and engage your audience. My designs are tailored to meet your business 
+                         goals while ensuring seamless navigation and compatibility across all devices.</p>
+                         <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I design intuitive and engaging user interfaces that enhance user experience. From wireframes
+                         to prototypes, I focus on creating seamless interactions and visually appealing layouts 
+                         that keep users coming back.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-arrow-trend-up"></i>
+                    <h2>Modeling & Data Analysis</h2>
+                    <p>I develop data-driven predictive models that uncover trends and insights. Using advanced 
+                        analytics and machine learning, my services help businesses understand patterns, 
+                        optimize operations, and drive strategic decision-making with confidence.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----portfolio------>
+
+    
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/pos.jpg">
+                    <div class="layer">
+                        <h3>Point of Sale (POS) System</h3>
+                        <p>I provide custom POS systems that simplify sales, inventory management, customer 
+                            tracking, and that cater your unique needs.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/e-commerce.jpg">
+                    <div class="layer">
+                        <h3>E-commerce Website</h3>
+                        <p>I build secure, scalable, and user-friendly e-commerce websites that make online selling easy.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="images/chart-bot.jpg">
+                    <div class="layer">
+                        <h3>AI Chartbot</h3>
+                        <p>My AI-powered tool chartbot automate customer interactions, improve engagement, and provide
+                             instant support.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!---------contact--------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">contact me</h1>
+                    <p><i class="fa-solid fa-square-envelope"></i>allankiplimo9@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+254740811620</p>
+                    <p><i class="fa-solid fa-location-dot"></i>30100, Eldoret, Kenya.</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/allankiplimo?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://x.com/allank_kogei?t=QGLJ3xEh3P7wFh8IW7lmuA&s=09"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="https://www.reddit.com/u/allankiplimo/s/DIzBPNex1U"><i class="fa-brands fa-reddit"></i></a>
+
+                    </div>
+                    <a href="allan_resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @Allan.kiplimo Made with <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        window.onload = () => {
+          
+          const jobTitle = document.getElementById("job-title");
+          setTimeout(() => {
+            jobTitle.classList.add("visible");
+          }, 300);
+
+          const h1Target = document.getElementById("typewriter-target");
+          const fullText = `Hello, I'm Allan Kiplimo from Kenya. 
+I'm a results-driven software developer with a strong background in designing, 
+building, and maintaining robust web, mobile applications, and building
+ predictive models. I specialize in modern development frameworks and technologies.`;
+          let i = 0;
+          const speed = 70;
+      
+          function typeWriter() {
+            if (i < fullText.length) {
+              const char = fullText.charAt(i);
+              h1Target.innerHTML += (char === "\n") ? "<br>" : char;
+              i++;
+              setTimeout(typeWriter, speed);
+            }
+          }
+      
+          setTimeout(typeWriter, 1000);
+        };
+      </script>
+      
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyKj768BG3HIzvah4fD5iPf1n7dWc8BzYrXudEvjaL7_yncOeAy54f7npYi8sDqWaLW/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
